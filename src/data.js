@@ -1,0 +1,51 @@
+export const products = [
+  {
+    id: 1,
+    img: "https://images.unsplash.com/photo-1589209934789-4aacd30e8e3d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+    link: "https://covid-tracker-by-anup.herokuapp.com/",
+    title: "Covid-19 Stats",
+    desc: "Covid-19 stats tracker build on React Js, using thrid-party API to shows data of across the world",
+  },
+  {
+    id: 2,
+    img: "https://images.unsplash.com/photo-1644329843491-99edfc83de04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+    link: "https://taskappbyanup.netlify.app/",
+    title: "Task App",
+    desc: "Task app allows users to add, delete and switch task.",
+  },
+  {
+    id: 3,
+    img: "https://images.unsplash.com/photo-1488998287214-1e668a8e0dc4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    link: "https://chatappbyanup.netlify.app/",
+    title: "Real Chat App",
+    desc: "Real chat application build using Socket.IO, deployed server side on heroku and client side on netlify",
+  },
+  {
+    id: 4,
+    img: "https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    link: "https://blog-app-by-anup-poudel.netlify.app/",
+    title: "Blog App",
+    desc: "This is blog app where users can Create,Read,Update,Delete (CRUD) their post and photos, user authentication and authorization",
+  },
+  {
+    id: 5,
+    img: "https://images.unsplash.com/photo-1600007283728-22abc97b9318?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    link: "https://expensetrackerbyanup.netlify.app/",
+    title: "Expense Tracker App",
+    desc: "Manage your expenses and saving.",
+  },
+  {
+    id: 6,
+    img: "https://images.unsplash.com/photo-1504270997636-07ddfbd48945?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+    link: "https://social-app-by-anup.herokuapp.com/",
+    title: "Social Media App",
+    desc: "Like/Unlike post, Follow/Unfollow other user, CRUD post and profile data, Forgot/Reset/Update password.Mobile Responsive.",
+  },
+  {
+    id: 7,
+    img: "https://blog.jetadmin.io/content/images/2019/12/image-3.png",
+    link: "https://estore-by-anup.herokuapp.com/",
+    title: "E-commerce Website",
+    desc: "Overlay navbar, Stripe payment, admin dashboard and mobile responsive",
+  },
+];

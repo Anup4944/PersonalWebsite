@@ -1,0 +1,121 @@
+.c {
+  height: 100vh;
+  position: relative;
+}
+.c-bg {
+  width: 40px;
+  height: 100%;
+  background: #59b256;
+  position: absolute;
+}
+
+.c-wrapper {
+  display: flex;
+  padding: 50px;
+}
+.c-left {
+  flex: 1;
+}
+.c-title {
+  font-size: 60px;
+  width: 80%;
+}
+
+.c-info-item {
+  display: flex;
+  align-items: center;
+  margin: 50px 0px;
+  font-weight: 300;
+  width: 70%;
+}
+.c-icon {
+  height: 30px;
+  width: 30px;
+  margin-right: 20px;
+}
+.c-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.c-desc {
+  font-weight: 200;
+}
+
+form {
+  margin-top: 20px;
+}
+input {
+  width: 50%;
+  height: 50px;
+  border: none;
+  border-bottom: 1px solid black;
+  margin: 10px 0px;
+  padding: 10px;
+}
+
+textarea {
+  width: 100%;
+  margin: 10px 0px;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+button {
+  border: none;
+  padding: 15px;
+  color: white;
+  background-color: #59b256;
+  cursor: pointer;
+  border-radius: 20%;
+}
+
+button:hover {
+  background-color: black;
+}
+.custom-shape-divider-bottom-1649943814 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+@media screen and (max-width: 480px) {
+  .c-wrapper {
+    flex-direction: column;
+    padding: 0 50px;
+  }
+
+  .c-title {
+    font-size: 30px;
+  }
+
+  .c-info-item {
+    margin: 20px 0px;
+    width: 100%;
+  }
+
+  .c-desc {
+    display: none;
+  }
+
+  form {
+    margin-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  input {
+    width: 35%;
+    height: 40px;
+    margin: 10px;
+    margin-left: 0;
+  }
+
+  button {
+    margin-top: 10px;
+  }
+}

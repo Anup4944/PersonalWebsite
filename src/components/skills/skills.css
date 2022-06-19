@@ -1,0 +1,148 @@
+.s {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.arrow-left {
+  height: 50px;
+  position: absolute;
+  cursor: pointer;
+  left: 170px;
+  transform: rotateY(180deg);
+  background-color: #ef4b46;
+  border-radius: 50%;
+}
+
+.arrow-right {
+  height: 50px;
+  position: absolute;
+  cursor: pointer;
+  right: 170px;
+  background-color: #ef4b46;
+  border-radius: 50%;
+}
+
+.slider {
+  height: 120vh;
+  display: flex;
+  position: absolute;
+  left: 0;
+  transition: all 1s ease;
+}
+
+.container {
+  width: 100vw;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item {
+  width: 50vw;
+  height: 60%;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: change 5s ease-in-out infinite;
+}
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  0% {
+    background-position: 0 50%;
+  }
+}
+
+.left {
+  flex: 3;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.leftContainer {
+  width: 90%;
+  height: 70%;
+}
+
+.imgContainer {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(245, 179, 155);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-cont {
+  width: 25px;
+}
+
+.header {
+  font-size: 50px;
+  font-weight: 700;
+}
+.para {
+  margin-top: 20px;
+  font-size: 35px;
+  font-weight: 500;
+  flex: wrap;
+}
+
+.right {
+  flex: 6;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.img-right {
+  height: inherit;
+  width: 600px;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 480px) {
+  .slider {
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .item {
+    width: 90%;
+    height: 150px;
+    margin: 10px 0;
+  }
+  .header {
+    font-size: 20px;
+  }
+
+  .para {
+    font-size: 13px;
+  }
+  .arrow-left {
+    display: none;
+  }
+
+  .arrow-right {
+    display: none;
+  }
+}

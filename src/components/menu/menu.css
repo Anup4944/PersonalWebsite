@@ -1,0 +1,63 @@
+.menu {
+  clip-path: circle(43.9% at 10% 29%);
+  background-color: #59b256;
+  position: fixed;
+  z-index: 2;
+  top: 10;
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  text-align: center;
+}
+
+.menu ul li {
+  width: 35px;
+  height: 30px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+  font-size: 30px;
+  margin-left: 15px;
+}
+
+.home,
+.about,
+.skills,
+.projects,
+.contact {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.home:hover {
+  color: red;
+  font-weight: 500;
+}
+
+.about:hover {
+  color: red;
+  font-weight: 700;
+}
+.skills:hover {
+  color: red;
+  font-weight: 700;
+}
+.projects:hover {
+  color: red;
+  font-weight: 700;
+}
+.contact:hover {
+  color: red;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 480px) {
+  .menu ul li {
+    font-size: 16px;
+    margin: 15px 0;
+  }
+}

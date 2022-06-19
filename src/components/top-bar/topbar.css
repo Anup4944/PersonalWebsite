@@ -1,0 +1,11 @@
+.ham {
+  margin-left: 30px;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  transition: all 1s ease;
+}
+
+.hambuger {
+  margin-top: 50px;
+}
