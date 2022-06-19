@@ -51,11 +51,9 @@ const Projects = () => {
           return (
             <div className="container" key={item.id}>
               <div className="item">
-                <div className="left">
-                  <div className="leftContainer">
-                    <h2 className="header">{item.title}</h2>
-                    <p className="para">{item.desc}</p>
-                  </div>
+                <div className="leftContainer">
+                  <h2 className="header">{item.title}</h2>
+                  <p className="para">{item.desc}</p>
                 </div>
               </div>
             </div>

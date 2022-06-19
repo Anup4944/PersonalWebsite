@@ -13,22 +13,25 @@ const App = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
+
   return (
-    <div
-      className="main"
-      style={{
-        backgroundColor: darkMode ? "#222" : "white",
-        color: darkMode && "white",
-      }}
-    >
-      <TopBar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-      <Toggle />
-      <Intro />
-      <About />
-      <Skills />
-      <ProductList />
-      <Contact />
-    </div>
+    <>
+      <div
+        className="main"
+        style={{
+          backgroundColor: darkMode ? "#222" : "white",
+          color: darkMode && "white",
+        }}
+      >
+        <TopBar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+        <Toggle />
+        <Intro />
+        <About />
+        <Skills />
+        <ProductList />
+        <Contact />
+      </div>
+    </>
   );
 };
 
