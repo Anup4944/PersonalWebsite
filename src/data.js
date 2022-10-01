@@ -23,9 +23,9 @@ export const products = [
   {
     id: 4,
     img: "https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-    link: "https://blog-app-by-anup-poudel.netlify.app/",
+    link: "https://my-blog-anup-poudel.vercel.app/",
     title: "Blog App",
-    desc: "This is blog app where users can Create,Read,Update,Delete (CRUD) their post and photos, user authentication and authorization",
+    desc: "This is blog app build using React , GraphQL, NextJS and Tailwind CSS",
   },
   {
     id: 5,
@@ -46,6 +46,6 @@ export const products = [
     img: "https://blog.jetadmin.io/content/images/2019/12/image-3.png",
     link: "https://estore-by-anup.herokuapp.com/",
     title: "E-commerce Website",
-    desc: "Overlay navbar, Stripe payment, admin dashboard and mobile responsive",
+    desc: "Overlay navbar, Stripe, React/Redux, NodeJS and MongoDb",
   },
 ];

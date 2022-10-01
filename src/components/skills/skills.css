@@ -5,10 +5,12 @@
   justify-content: center;
   position: relative;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .arrow-left {
   height: 50px;
+  padding: 10px;
   position: absolute;
   cursor: pointer;
   left: 170px;
@@ -19,6 +21,7 @@
 
 .arrow-right {
   height: 50px;
+  padding: 10px;
   position: absolute;
   cursor: pointer;
   right: 170px;
@@ -26,8 +29,13 @@
   border-radius: 50%;
 }
 
+.arrow-left:hover,
+.arrow-right:hover {
+  background-color: #e73c7e;
+}
+
 .slider {
-  height: 100vh;
+  height: 90vh;
   display: flex;
   position: absolute;
   left: 0;
@@ -79,51 +87,25 @@
   height: 70%;
 }
 
-.imgContainer {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: rgb(245, 179, 155);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.img-cont {
-  width: 25px;
-}
-
 .header {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 700;
 }
 .para {
   margin-top: 20px;
-  font-size: 35px;
+  font-size: 25px;
   font-weight: 500;
   flex: wrap;
 }
 
-.right {
-  flex: 6;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-
-.img-right {
-  height: inherit;
-  width: 600px;
-  object-fit: contain;
-}
-
 @media screen and (max-width: 480px) {
   .slider {
-    height: 100%;
     flex-direction: column;
     justify-content: center;
+  }
+
+  .container {
+    margin-top: 0;
   }
 
   .item {
@@ -132,11 +114,12 @@
     margin: 10px 0;
   }
   .header {
-    font-size: 20px;
+    font-size: 14px;
   }
 
   .para {
     font-size: 13px;
+    margin-top: 5px;
   }
   .arrow-left {
     display: none;

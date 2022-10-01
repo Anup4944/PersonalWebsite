@@ -63,24 +63,28 @@ const Contact = () => {
               type="text"
               placeholder="Your name"
               name="user_name"
+              required
             />
             <input
               style={{ backgroundColor: darkMode && "#333" }}
               type="text"
               placeholder="Subject"
               name="user_subject"
+              required
             />
             <input
               style={{ backgroundColor: darkMode && "#333" }}
               type="text"
               placeholder="Your email"
               name="user_email"
+              required
             />
             <textarea
               style={{ backgroundColor: darkMode && "#333" }}
               rows="5"
               placeholder="message"
               name="message"
+              required
             />
             <button>Submit</button>
             <p

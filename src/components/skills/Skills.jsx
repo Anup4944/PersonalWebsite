@@ -1,37 +1,29 @@
 import React, { useState } from "react";
 import "./skills.css";
 import Arrow from "../../img/arrow.png";
-import FrontEnd from "../../img/fe.png";
-import BackEnd from "../../img/be.png";
-import Cloud from "../../img/cl.png";
 
 const Projects = () => {
   const [currSlide, setcurrSlide] = useState(0);
   const data = [
     {
       id: "1",
-
       title: "Front End",
-      desc: "HTML5, CSS3, Sass,Tailwind CSS, Material UI,JavaScript (ES6+),TypeScript, React, Redux, React Hooks, Bootstrap, Styled Components, Responsive Web Design",
-      img: FrontEnd,
+      desc: "HTML5, CSS3, Sass, Tailwind CSS, Material UI,JavaScript (ES6+),TypeScript, React, Redux, React Hooks, Bootstrap, Styled Components and Responsive Web Design",
     },
     {
       id: "2",
       title: "Back End",
-      desc: "Node JS, Express JS, Mondo Db, Firebase",
-      img: BackEnd,
+      desc: "Node JS, Express JS, Laravel and PHP",
     },
     {
       id: "3",
       title: "Cloud",
-      desc: "Heroku, Netlify, Vercel, Mongo Atlas, AWS ",
-      img: Cloud,
+      desc: "Heroku, Netlify, Vercel, Mongo Atlas and AWS ( Lyamba Functions, Dynamo DB, API Gateway)",
     },
     {
       id: "4",
       title: "Database",
-      desc: "MongoDb, Mysql, Reddish",
-      img: "https://blog.back4app.com/wp-content/uploads/2018/03/henroku-alternatives-2-1.png",
+      desc: "MongoDb and MySql",
     },
   ];
 
