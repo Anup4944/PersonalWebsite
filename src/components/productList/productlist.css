@@ -37,3 +37,15 @@
     margin-top: 20px;
   }
 }
+@media screen and (max-width: 820px) {
+  .pl {
+    padding: 10px;
+  }
+  .pl-texts {
+    width: 100%;
+  }
+  .pl-title {
+    font-size: 50px;
+    margin-top: 20px;
+  }
+}

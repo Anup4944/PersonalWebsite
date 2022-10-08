@@ -100,17 +100,18 @@
 
 @media screen and (max-width: 480px) {
   .slider {
+    margin-top: 25px;
     flex-direction: column;
     justify-content: center;
   }
 
   .container {
-    margin-top: 0;
+    margin-top: 2px;
   }
 
   .item {
     width: 90%;
-    height: 150px;
+    height: 120px;
     margin: 10px 0;
   }
   .header {
@@ -118,7 +119,7 @@
   }
 
   .para {
-    font-size: 13px;
+    font-size: 10px;
     margin-top: 5px;
   }
   .arrow-left {
@@ -127,5 +128,43 @@
 
   .arrow-right {
     display: none;
+  }
+}
+@media screen and (max-width: 820px) {
+  .s {
+    height: 70vh;
+  }
+
+  .arrow-left,
+  .arrow-right {
+    height: 30px;
+    padding: 5px;
+  }
+
+  .arrow-left {
+    left: 150px;
+  }
+
+  .arrow-right {
+    right: 150px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .s {
+    height: 70vh;
+  }
+
+  .arrow-left,
+  .arrow-right {
+    height: 30px;
+    padding: 5px;
+  }
+
+  .arrow-left {
+    left: 150px;
+  }
+
+  .arrow-right {
+    right: 150px;
   }
 }
