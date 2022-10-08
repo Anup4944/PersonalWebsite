@@ -104,3 +104,24 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 820px) {
+  .p {
+    height: 30vh;
+  }
+  .p-img {
+    filter: blur(0);
+    background-repeat: none;
+    background-size: contain;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .p {
+    height: 30vh;
+  }
+  .p-img {
+    filter: blur(0);
+    background-repeat: none;
+    background-size: contain;
+  }
+}

@@ -6,28 +6,48 @@ const Menu = ({ menuOpen, setMenuOpen }) => {
     <>
       <div className="menu">
         <ul>
-          <li onClick={() => setMenuOpen(!menuOpen)}>
-            <a href="#home" className="home">
+          <li>
+            <a
+              href="#home"
+              className="home"
+              onClick={() => setMenuOpen(!menuOpen)}
+            >
               Home
             </a>
           </li>
-          <li onClick={() => setMenuOpen(!menuOpen)}>
-            <a href="#about" className="about">
+          <li>
+            <a
+              href="#about"
+              className="about"
+              onClick={() => setMenuOpen(!menuOpen)}
+            >
               About
             </a>
           </li>
-          <li onClick={() => setMenuOpen(!menuOpen)}>
-            <a href="#skills" className="skills">
+          <li>
+            <a
+              href="#skills"
+              className="skills"
+              onClick={() => setMenuOpen(!menuOpen)}
+            >
               Skills
             </a>
           </li>
-          <li onClick={() => setMenuOpen(!menuOpen)}>
-            <a href="#projects" className="projects">
+          <li>
+            <a
+              href="#projects"
+              className="projects"
+              onClick={() => setMenuOpen(!menuOpen)}
+            >
               Projects
             </a>
           </li>
-          <li onClick={() => setMenuOpen(!menuOpen)}>
-            <a href="#contacts" className="contact">
+          <li>
+            <a
+              href="#contacts"
+              className="contact"
+              onClick={() => setMenuOpen(!menuOpen)}
+            >
               Contact
             </a>
           </li>

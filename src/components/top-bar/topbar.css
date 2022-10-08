@@ -1,11 +1,12 @@
 .ham {
   margin-left: 30px;
   position: fixed;
-  top: 0;
+  padding: 10px;
   z-index: 3;
-  transition: all 1s ease;
+  font-size: 2rem;
 }
 
-.hambuger {
-  margin-top: 50px;
+.ham i {
+  transition: all 1s ease-in;
+  cursor: pointer;
 }

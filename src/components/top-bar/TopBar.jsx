@@ -1,22 +1,14 @@
 import "./topbar.css";
-import Hamburger from "hamburger-react";
 import Menu from "../menu/Menu";
 
 const TopBar = ({ menuOpen, setMenuOpen }) => {
   return (
     <div className="ham">
-      <Hamburger
-        color="green"
-        className="hambuger"
-        onToggle={() => setMenuOpen(!menuOpen)}
-      />
-      {menuOpen ? (
-        <Menu
-          setMenuOpen={setMenuOpen}
-          menuOpen={menuOpen}
-          onClick={() => setMenuOpen(!menuOpen)}
-        />
-      ) : null}
+      <i
+        className={!menuOpen ? "fas fa-bars" : "fas fa-times"}
+        onClick={() => setMenuOpen(!menuOpen)}
+      ></i>
+      {menuOpen && <Menu setMenuOpen={setMenuOpen} menuOpen={menuOpen} />}
     </div>
   );
 };
