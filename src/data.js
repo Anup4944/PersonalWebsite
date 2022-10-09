@@ -1,10 +1,10 @@
 export const products = [
   {
     id: 1,
-    img: "https://images.unsplash.com/photo-1589209934789-4aacd30e8e3d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
-    link: "https://covid-tracker-by-anup.herokuapp.com/",
-    title: "Covid-19 Stats",
-    desc: "Covid-19 stats tracker build on React Js, using thrid-party API to shows data of across the world",
+    img: "https://images.unsplash.com/photo-1611510338559-2f463335092c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
+    link: "https://nike-store-clone-jet.vercel.app/",
+    title: "Nike Website Clone",
+    desc: "Nike webiste build using React, Tailwind CSS and deploy on Vercel",
   },
   {
     id: 2,
