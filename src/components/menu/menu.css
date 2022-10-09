@@ -47,7 +47,7 @@ li {
   font-weight: 500;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   .menu {
     height: 80vh;
     width: 80%;
