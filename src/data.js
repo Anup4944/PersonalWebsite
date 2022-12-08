@@ -16,7 +16,7 @@ export const products = [
   {
     id: 3,
     img: "https://images.unsplash.com/photo-1488998287214-1e668a8e0dc4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-    link: "https://chatappbyanup.netlify.app/",
+    link: "https://chatapp-ma7n.onrender.com/",
     title: "Real Chat App",
     desc: "Real chat application build using Socket.IO, deployed server side on heroku and client side on netlify",
   },
@@ -29,20 +29,13 @@ export const products = [
   },
   {
     id: 5,
-    img: "https://images.unsplash.com/photo-1600007283728-22abc97b9318?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-    link: "https://expensetrackerbyanup.netlify.app/",
-    title: "Expense Tracker App",
-    desc: "Manage your expenses and saving.",
-  },
-  {
-    id: 6,
     img: "https://images.unsplash.com/photo-1504270997636-07ddfbd48945?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
     link: "https://mysocialapp.onrender.com/",
     title: "Social Media App",
     desc: "Like/Unlike post, Follow/Unfollow other user, CRUD post and profile data, Forgot/Reset/Update password.Mobile Responsive.",
   },
   {
-    id: 7,
+    id: 6,
     img: "https://blog.jetadmin.io/content/images/2019/12/image-3.png",
     link: "https://estore-1rqj.onrender.com/",
     title: "E-commerce Website",
