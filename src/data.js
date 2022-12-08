@@ -9,7 +9,7 @@ export const products = [
   {
     id: 2,
     img: "https://images.unsplash.com/photo-1644329843491-99edfc83de04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
-    link: "https://taskappbyanup.netlify.app/",
+    link: "https://taskappfrontend.onrender.com",
     title: "Task App",
     desc: "Task app allows users to add, delete and switch task.",
   },
@@ -37,14 +37,14 @@ export const products = [
   {
     id: 6,
     img: "https://images.unsplash.com/photo-1504270997636-07ddfbd48945?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
-    link: "https://social-app-by-anup.herokuapp.com/",
+    link: "https://mysocialapp.onrender.com/",
     title: "Social Media App",
     desc: "Like/Unlike post, Follow/Unfollow other user, CRUD post and profile data, Forgot/Reset/Update password.Mobile Responsive.",
   },
   {
     id: 7,
     img: "https://blog.jetadmin.io/content/images/2019/12/image-3.png",
-    link: "https://estore-by-anup.herokuapp.com/",
+    link: "https://estore-1rqj.onrender.com/",
     title: "E-commerce Website",
     desc: "Overlay navbar, Stripe, React/Redux, NodeJS and MongoDb",
   },
