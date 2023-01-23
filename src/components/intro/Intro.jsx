@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { init } from "ityped";
 import "./intro.css";
-import Me from "../../img/me-removebg-preview.png";
+import Me from "../../img/meeeee.png";
 
 const Intro = () => {
   const textRef = useRef();

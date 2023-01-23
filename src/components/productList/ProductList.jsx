@@ -20,6 +20,7 @@ const ProductList = () => {
                 link={item.link}
                 title={item.title}
                 desc={item.desc}
+                github={item.gitLink}
               />
             );
           })}

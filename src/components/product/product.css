@@ -39,15 +39,15 @@
   width: 100%;
   height: 100%;
   display: block;
-  filter: blur(3px);
+  filter: blur(5px);
   -webkit-filter: blur(3px);
 }
 
 .imgOverLay {
   position: absolute;
-  width: 10%;
   height: 100%;
   left: 0;
+  right: 0;
   top: 0;
   color: rgb(227, 14, 14);
   display: flex;
@@ -56,8 +56,9 @@
   justify-content: center;
   margin-right: 300px;
   opacity: 0;
-  transition: opacity 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in;
   cursor: pointer;
+  max-width: 100%;
 }
 
 .imgOverLay:hover {
@@ -65,24 +66,34 @@
 }
 .project-title {
   font-weight: 900;
-  font-size: 15px;
+  font-size: 20px;
   width: 100px;
-  line-height: 1.2;
+  line-height: 1;
 }
 .project-desc {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  font-size: 17px;
+  font-size: 23px;
   font-weight: 900;
-  line-height: 1.5;
-  margin-top: 20px;
-  color: rgba(18, 18, 22, 0.82);
-  width: 200px;
-  font-family: "Montserrat", sans-serif;
+  line-height: 1.1;
+  margin-top: 15px;
+  color: rgb(18, 18, 22);
+  width: 400px;
+  height: 200px;
+  font-family: "Poppins", sans-serif;
+  padding: 0 10px;
+}
+.options {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
 }
 
+.iconsLinks i {
+  font-size: 30px;
+}
 @media screen and (max-width: 600px) {
   .p {
     width: 40%;
@@ -114,6 +125,11 @@
     background-repeat: none;
     background-size: contain;
   }
+  .project-desc {
+    font-size: 20px;
+    width: 200px;
+    height: 100px;
+  }
 }
 @media screen and (max-width: 1024px) {
   .p {
@@ -123,5 +139,10 @@
     filter: blur(0);
     background-repeat: none;
     background-size: contain;
+  }
+  .project-desc {
+    font-size: 17px;
+    width: 200px;
+    height: 100px;
   }
 }
