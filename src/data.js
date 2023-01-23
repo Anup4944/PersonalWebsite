@@ -5,6 +5,7 @@ export const products = [
     link: "https://nike-store-clone-jet.vercel.app/",
     title: "Nike Website Clone",
     desc: "Nike webiste build using React, Tailwind CSS and deploy on Vercel",
+    gitLink: "https://github.com/Anup4944/nike-store-clone",
   },
   {
     id: 2,
@@ -12,6 +13,7 @@ export const products = [
     link: "https://taskappfrontend.onrender.com",
     title: "Task App",
     desc: "Task app allows users to add, delete and switch task.",
+    gitLink: "",
   },
   {
     id: 3,
@@ -19,6 +21,7 @@ export const products = [
     link: "https://chatapp-ma7n.onrender.com/",
     title: "Real Chat App",
     desc: "Real chat application build using Socket.IO, deployed server side on heroku and client side on netlify",
+    gitLink: "https://github.com/Anup4944/chatapp-ui",
   },
   {
     id: 4,
@@ -26,6 +29,7 @@ export const products = [
     link: "https://my-blog-anup-poudel.vercel.app/",
     title: "Blog App",
     desc: "This is blog app build using React , GraphQL, NextJS and Tailwind CSS",
+    gitLink: "https://github.com/Anup4944/my-blog",
   },
   {
     id: 5,
@@ -33,6 +37,7 @@ export const products = [
     link: "https://mysocialapp.onrender.com/",
     title: "Social Media App",
     desc: "Like/Unlike post, Follow/Unfollow other user, CRUD post and profile data, Forgot/Reset/Update password.Mobile Responsive.",
+    gitLink: "https://github.com/Anup4944/Social",
   },
   {
     id: 6,
@@ -40,5 +45,6 @@ export const products = [
     link: "https://estore-1rqj.onrender.com/",
     title: "E-commerce Website",
     desc: "Overlay navbar, Stripe, React/Redux, NodeJS and MongoDb",
+    gitLink: "https://github.com/Anup4944/e-commerce",
   },
 ];
