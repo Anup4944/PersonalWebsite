@@ -9,11 +9,11 @@ export const products = [
   },
   {
     id: 2,
-    img: "https://images.unsplash.com/photo-1644329843491-99edfc83de04?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
-    link: "https://taskappfrontend.onrender.com",
-    title: "Task App",
-    desc: "Task app allows users to add, delete and switch task.",
-    gitLink: "",
+    img: "https://images.unsplash.com/photo-1590540178973-02381b349071?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+    link: "https://menshairdresser.onrender.com",
+    title: "Hair Dresser Website",
+    desc: "Frontend for hair dressing business. Styled component, Email JS and deployed on Render",
+    gitLink: "https://github.com/Anup4944/hair-dresser-project",
   },
   {
     id: 3,
